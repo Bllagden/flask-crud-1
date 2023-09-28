@@ -3,3 +3,5 @@ Jinja - движок шаблонов (шаблонизатор)
 
 <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
+from app import db
+db.create_all()
