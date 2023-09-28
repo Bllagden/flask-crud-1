@@ -1,0 +1,5 @@
+Jinja - движок шаблонов (шаблонизатор)
+{% block head %}{% endblock %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
