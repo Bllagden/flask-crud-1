@@ -1,7 +1,0 @@
-Jinja - движок шаблонов (шаблонизатор)
-{% block head %}{% endblock %}
-
-<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-
-from app import db
-db.create_all()
